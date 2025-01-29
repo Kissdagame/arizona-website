@@ -83,8 +83,8 @@ arizona-website/
     - Right sidebar
 
 ## Images
-- Header images: 800px × 200px
-- Feature images: 400px × 300px
+- Header images
+- Feature images
 - All images should be web-optimized
 - Required formats: JPG, PNG
 - Alt text provided for accessibility
