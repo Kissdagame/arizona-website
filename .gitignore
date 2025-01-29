@@ -3,3 +3,19 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Dependencies
+node_modules/

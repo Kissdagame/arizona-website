@@ -1,0 +1,316 @@
+﻿/* Base styles and reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #cd853f;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.header-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #8b4513;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #cd853f;
+    border-radius: 4px;
+}
+
+/* Main content layout */
+.main-content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+}
+
+section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+aside {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Featured content */
+.featured-content {
+    margin: 2rem 0;
+    position: relative;
+}
+
+.feature-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    background-color: #fff3e0;
+    padding: 1rem;
+    border-left: 4px solid #cd853f;
+    margin: 1rem 0;
+}
+
+/* Grid layout for info sections */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.grid-item {
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+/* Table styles */
+.city-stats {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.city-stats th,
+.city-stats td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.city-stats th {
+    background-color: #f5f5f5;
+}
+
+/* Quick facts section */
+.quick-facts {
+    background-color: #fff3e0;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.quick-facts ul {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.quick-facts li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #cd853f;
+}
+
+/* Form styles */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #cd853f;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #8b4513;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Additional CSS for Interior Layout */
+.interior-layout {
+    display: grid;
+    grid-template-columns: 200px 1fr 250px;
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Side Navigation Styles */
+.side-nav {
+    background-color: #8b4513;
+    border-radius: 8px;
+    padding: 1.5rem;
+    height: fit-content;
+}
+
+.side-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s, padding-left 0.3s;
+}
+
+.side-nav a:hover {
+    background-color: #cd853f;
+    padding-left: 1.5rem;
+}
+
+/* Main Section Styles */
+.main-section {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Side Info Styles */
+.side-info {
+    height: fit-content;
+}
+
+.city-stats-table {
+    width: 100%;
+    margin: 1.5rem 0;
+    border-collapse: collapse;
+}
+
+.city-stats-table th,
+.city-stats-table td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.city-stats-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+#feature-image {
+    position: relative;
+    left: 0;
+    margin: 1.5rem 0;
+    width: 100%;
+}
+
+#feature-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design for Interior Layout */
+@media (max-width: 1024px) {
+    .interior-layout {
+        grid-template-columns: 180px 1fr 220px;
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .interior-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .side-nav {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        margin-bottom: 1rem;
+    }
+
+    .side-nav ul {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .side-info {
+        order: 3;
+    }
+}
