@@ -21,9 +21,7 @@ arizona-website/
 │      ├── Screenshot 2025-01-28 213711.png
 │      ├── Screenshot 2025-01-28 213849.png
 │      ├── Screenshot 2025-01-28 214010.png
-│      └── Screenshot 2025-01-28 214152.png
-│   
-│       
+│      └── Screenshot 2025-01-28 214152.png 
 └── pages/
     ├── phoenix.html
     ├── tucson.html
@@ -130,4 +128,4 @@ arizona-website/
 ## Deployment
 The site is configured for GitLab Pages deployment:
 1. Automatic deployment on push to main branch
-2. Accessible at: https://gitlab.com/jjo4919/D277-ArizonaSite.git
+2. Accessible at: https://gitlab.com/jjo4919/d277-Azsite.git
