@@ -12,14 +12,18 @@ arizona-website/
 ├── js/
 │   └── form-validation.js
 ├── images/
-│   ├── headers/
-│   │   ├── arizona-header.jpg
-│   │   ├── phoenix-header.jpg
-│   │   ├── tucson-header.jpg
-│   │   ├── scottsdale-header.jpg
-│   │   └── contact-header.jpg
-│   └── content/
-│       └── [content images]
+│      ├──.gitkeep      
+│      ├── Screenshot 2025-01-28 212104.png
+│      ├── Screenshot 2025-01-28 212300.png
+│      ├── Screenshot 2025-01-28 212620.png
+│      ├── Screenshot 2025-01-28 213000.png
+│      ├── Screenshot 2025-01-28 213211.png
+│      ├── Screenshot 2025-01-28 213711.png
+│      ├── Screenshot 2025-01-28 213849.png
+│      ├── Screenshot 2025-01-28 214010.png
+│      └── Screenshot 2025-01-28 214152.png
+│   
+│       
 └── pages/
     ├── phoenix.html
     ├── tucson.html
@@ -99,7 +103,7 @@ arizona-website/
 ## Setup Instructions
 1. Clone the repository:
    ```bash
-   git clone [repository-url]
+   git clone https://gitlab.com/jjo4919/D277-ArizonaSite.git
    cd arizona-website
    ```
 
@@ -126,4 +130,4 @@ arizona-website/
 ## Deployment
 The site is configured for GitLab Pages deployment:
 1. Automatic deployment on push to main branch
-2. Accessible at: [GitLab Pages URL]
+2. Accessible at: https://gitlab.com/jjo4919/D277-ArizonaSite.git
